@@ -1,0 +1,39 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 24px;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    background-color: #fff;
+}
+body.dark-theme {
+    background-color: #333;
+}
+.dark-theme * {
+    color: #fff;
+}
+main {
+    flex: 1;
+}
+
+
+
+
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 1199px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1800px) {}

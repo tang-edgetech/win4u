@@ -14,8 +14,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #333;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1D212D;
 }
 body.dark-theme {
     background-color: #333;
@@ -25,6 +25,11 @@ body.dark-theme {
 }
 main {
     flex: 1;
+    max-width: 1280px;
+    justify-content: center;
+}
+.site-header, .site-footer{
+    background-color: #000;
 }
 
 

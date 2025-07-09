@@ -95,6 +95,10 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     align-items: stretch;
     gap: 3px;
+    transform-origin: center center;
+}
+.link-item:hover {
+    transform: scale(1.1);
 }
 .link-column {
     text-align: center;
@@ -138,14 +142,42 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .link-column .caret-right {
     position: absolute;
-    top: 50%;
+    top: 15px;
     right: 25px;
-    transform: translate(0, -50%);
     width: 32px;
     height: auto;
+    animation: jiggle 2.25s infinite;
+    animation-delay: 0.25s;
+}
+.link-item:nth-child(2) .caret-right {
+    animation-delay: 0.75s;
+}
+.link-item:nth-child(3) .caret-right {
+    animation-delay: 1.25s;
+}
+.link-item:nth-child(4) .caret-right {
+    animation-delay: 1.75s;
 }
 .link-column .caret-right:hover {
     opacity: 0.8;
+}
+@keyframes jiggle {
+    0% { transform: translateX(0) rotate(0)}
+    35% { transform: translateY(0) rotate(0)}
+    85% { transform: translateY(0) rotate(0) }
+    89% { transform: translateY(-2px) rotate(-17deg) }
+    93% { transform: translateY(-3px) rotate(17deg) }
+    98% { transform: translateY(-4px) rotate(-17deg) }
+    100% { transform: translateY(0) rotate(0) }
+}
+.btn-animation {
+    transform-origin: center center;
+    animation: buttonPulse 0.7s infinite alternate;
+}
+@keyframes buttonPulse {
+    100% {
+        transform: scale(0.9);
+    }
 }
 .btn.btn-download {
     gap: 10px;
@@ -275,6 +307,9 @@ h1, h2, h3, h4, h5, h6, p {
     }
     .link-column .caret-right {
         width: 18px;
+    }
+    .frame.frame-body {
+        transform: scaleY(0.9);
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait) {

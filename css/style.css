@@ -26,6 +26,8 @@ body.dark-theme {
 }
 main {
     flex: 1;
+    max-width: 1280px;
+    justify-content: center;
 }
 .site-header, .site-footer{
     background-color: #000;
@@ -35,7 +37,9 @@ button.download{
     border-radius: 20px;
     padding: 8px 15px;
 }
-
+.main-section {
+    padding: 60px 0;
+}
 
 
 

@@ -1,21 +1,23 @@
 
 <footer class="site-footer" id="mastfoot">
     <div class="container-fluid">
-        <div class="row justify-content-center py-4">
-            <div class="row col-12 col-xl-6 p-0 mx-auto">
-                <div class="col-5 p-0 m-auto text-center">
-                    <p class="text-uppercase">Game License <?php echo $icon_bluetick;?></p>
-                    <img src="images/gaming_curacao_logo.png" class="col-10 col-md-5" alt="Gaming Curacao License">
-                </div>
-                <div class="col-5 p-0 m-auto text-center">
-                    <p class="text-uppercase">Responsible Gaming</p>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <span class="pe-3"><?php echo $icon_18;?></span>
-                        <span class="mb-0"><?php echo $icon_gamble_aware;?></sp>
+        <div class="row justify-content-center pt-4 pb-3">
+            <div class="col-12 col-xl-6 p-0 mx-auto">
+                <div class="d-flex flex-wrap">
+                    <div class="col-5 p-0 m-auto text-center">
+                        <p class="text-uppercase">Game License <?php echo $icon_bluetick;?></p>
+                        <img src="images/gaming_curacao_logo.png" class="col-10 col-md-5" alt="Gaming Curacao License">
+                    </div>
+                    <div class="col-5 p-0 m-auto text-center">
+                        <p class="text-uppercase">Responsible Gaming</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <span class="pe-3"><?php echo $icon_18;?></span>
+                            <span class="mb-0"><?php echo $icon_gamble_aware;?></sp>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-10 col-xl-9 px-4 pt-2">
+            <div class="col-12 col-md-10 col-xl-9 px-4 pt-3">
                 <p class="copyright text-center mb-0">Copyright &copy; <?php echo date('Y');?> Win4u. All rights reserved.</p>
             </div>
         </div>

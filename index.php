@@ -10,7 +10,7 @@
     <body>
         <?php include 'inc/navbar.php';?>
         <main class="site-main" id="site-main">
-            <section class="">
+            <section class="main-section">
                 <div class="container-fluid">
                     
                 </div>

@@ -13,9 +13,9 @@
             <section class="main-section">
                 <div class="container-fluid">
                     <div class="row justify-content-center">
-                        <div class="col-12 px-3 px-md-4">
+                        <div class="col-12 col-md-9 col-lg-10 col-xl-12 px-3 px-md-4">
                             <div class="box">
-                                <div class="box-header col-md-4">
+                                <div class="box-header col-md-7 col-lg-4">
                                     <div class="frame frame-title">
                                         <img src="images/bg-header-official-links.png" class="img-fluid w-100"/>
                                     </div>
@@ -30,8 +30,8 @@
                                     </div>
                                     <div class="box-body-inner">
                                         <div class="d-flex flex-wrap">
-                                            <div class="col-12 col-md-6">
-                                                <div class="official-links mb-4 mb-md-0">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="official-links mb-4 mb-lg-0">
                                                 <?php if( $official_links ) {
                                                     foreach( $official_links as $link ) {
                                                         $speed = rand(7,15);
@@ -55,7 +55,7 @@
                                                 ?>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-md-6 ps-md-5">
+                                            <div class="col-12 col-lg-6 ps-lg-5">
                                                 <div class="banner mb-4">
                                                     <img src="images/img-klwin-mobile-app.png" class="img-fluid w-100"/>
                                                 </div>

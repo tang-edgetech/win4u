@@ -34,7 +34,7 @@
                                                 <div class="official-links mb-4 mb-lg-0">
                                                 <?php if( $official_links ) {
                                                     foreach( $official_links as $link ) {
-                                                        $speed = rand(7,15);
+                                                        $speed = rand(5,12);
                                                     ?>
                                                     <div class="link-item">
                                                         <div class="link-column column-left col-4 col-md-3">

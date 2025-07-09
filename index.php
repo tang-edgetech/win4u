@@ -12,7 +12,63 @@
         <main class="site-main" id="site-main">
             <section class="main-section">
                 <div class="container-fluid">
-                    
+                    <div class="row justify-content-center">
+                        <div class="col-12 px-3 px-md-4">
+                            <div class="box">
+                                <div class="box-header col-md-4">
+                                    <div class="frame frame-title">
+                                        <img src="images/bg-header-official-links.png" class="img-fluid w-100"/>
+                                    </div>
+                                    <h2>Official Links</h2>
+                                </div>
+                                <div class="box-body col-12">
+                                    <div class="frame frame-body">
+                                        <picture>
+                                            <source srcset="images/bg-body-official-links.png" media="(min-width: 768px) and (orientation: landscape)">
+                                            <img src="images/bg-body-official-links-mobile.png" class="img-fluid w-100"/>
+                                        </picture>
+                                    </div>
+                                    <div class="box-body-inner">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="col-12 col-md-6">
+                                                <div class="official-links mb-4 mb-md-0">
+                                                <?php if( $official_links ) {
+                                                    foreach( $official_links as $link ) {
+                                                        $speed = rand(7,15);
+                                                    ?>
+                                                    <div class="link-item">
+                                                        <div class="link-column column-left col-4 col-md-3">
+                                                            <div class="link-column-inner">
+                                                                <p class="text-center data-speed"><?php echo $speed.' ms';?></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="link-column column-right col-8 col-md-9">
+                                                            <div class="link-column-inner">
+                                                                <p class="text-center data-link"><?php echo $link;?></p>
+                                                                <a href="javascript:void(0);" class="caret-right"><span class="d-none">Go To</span> <img src="images/icon-caret-right-yellow.png" class="img-fluid w-100"/></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <?php
+                                                    }
+                                                }
+                                                ?>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 ps-md-5">
+                                                <div class="banner mb-4">
+                                                    <img src="images/img-klwin-mobile-app.png" class="img-fluid w-100"/>
+                                                </div>
+                                                <div cass="btn-wrapper">
+                                                    <a href="javascript:void(0);" class="btn btn-download d-flex justify-content-center align-items-center"><img src="images/icon-android.png" class="icon-android"/> DOWNLOAD APP NOW</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

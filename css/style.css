@@ -95,10 +95,6 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     align-items: stretch;
     gap: 3px;
-    transform-origin: center center;
-}
-.link-item:hover {
-    transform: scale(1.1);
 }
 .link-column {
     text-align: center;

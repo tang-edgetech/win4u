@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex,nofollow">
 <link rel="icon" type="image/png" href="images/favicon_win4u.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

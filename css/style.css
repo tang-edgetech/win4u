@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .box-body-inner {
     padding: 9% 9% 8%;
-    min-height: 620px;
+    min-height: 600px;
 }
 .frame.frame-body {
     position: absolute;
@@ -235,6 +235,7 @@ h1, h2, h3, h4, h5, h6, p {
     .link-column .caret-right {
         right: 15px;
         width: 14px;
+        top: 6px;
     }
     .link-column.column-left {
         border-top-left-radius: 10px;

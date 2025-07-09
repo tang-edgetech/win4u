@@ -15,6 +15,7 @@
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-9 col-lg-10 col-xl-12 px-3 px-md-4">
                             <div class="box">
+                                <div class="box-banner col-12 col-xl-10 mx-auto mb-4 mb-md-5"><img src="images/banner-win4u-top.jpg" class="img-fluid w-100"/></div>
                                 <div class="box-header col-md-7 col-lg-4">
                                     <div class="frame frame-title">
                                         <img src="images/bg-header-official-links.png" class="img-fluid w-100"/>
@@ -35,6 +36,8 @@
                                                 <?php if( $official_links ) {
                                                     foreach( $official_links as $link ) {
                                                         $speed = rand(7,15);
+                                                        $label = $link['label'];
+                                                        $url = $link['url'];
                                                     ?>
                                                     <div class="link-item">
                                                         <div class="link-column column-left col-4 col-md-3">
@@ -44,8 +47,8 @@
                                                         </div>
                                                         <div class="link-column column-right col-8 col-md-9">
                                                             <div class="link-column-inner">
-                                                                <p class="text-center data-link"><?php echo $link;?></p>
-                                                                <a href="javascript:void(0);" class="caret-right"><span class="d-none">Go To</span> <img src="images/icon-caret-right-yellow.png" class="img-fluid w-100"/></a>
+                                                                <p class="text-center data-link"><?php echo $label;?></p>
+                                                                <a href="<?php echo $url;?>" target="_blank" class="caret-right"><span class="d-none">Go To</span> <img src="images/icon-caret-right-yellow.png" class="img-fluid w-100"/></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -57,10 +60,10 @@
                                             </div>
                                             <div class="col-12 col-lg-6 ps-lg-5">
                                                 <div class="banner mb-4">
-                                                    <img src="images/img-klwin-mobile-app.png" class="img-fluid w-100"/>
+                                                    <img src="images/img-banner-sm-win4u-top.jpg" class="img-fluid w-100"/>
                                                 </div>
                                                 <div cass="btn-wrapper">
-                                                    <a href="javascript:void(0);" class="btn btn-download d-flex justify-content-center align-items-center"><img src="images/icon-android.png" class="icon-android"/> DOWNLOAD APP NOW</a>
+                                                    <a href="javascript:void(0);" class="btn btn-download btn-animation d-flex justify-content-center align-items-center"><img src="images/icon-android.png" class="icon-android"/> DOWNLOAD APP NOW</a>
                                                 </div>
                                             </div>
                                         </div>

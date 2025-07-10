@@ -63,7 +63,7 @@
                                                     <img src="images/img-banner-sm-win4u-top.jpg" class="img-fluid w-100"/>
                                                 </div>
                                                 <div cass="btn-wrapper">
-                                                    <a href="javascript:void(0);" class="btn btn-download btn-animation d-flex justify-content-center align-items-center"><img src="images/icon-android.png" class="icon-android"/> DOWNLOAD APP NOW</a>
+                                                    <a id="download-btn" href="javascript:void(0);" class="btn btn-download btn-animation d-flex justify-content-center align-items-center"><img id="device-icon" src="images/icon-android.png" class="icon-android">DOWNLOAD APP NOW</a>
                                                 </div>
                                             </div>
                                         </div>

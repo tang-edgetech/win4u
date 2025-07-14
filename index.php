@@ -15,7 +15,7 @@
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-9 col-lg-10 col-xl-12 px-3 px-md-4">
                             <div class="box">
-                                <div class="box-banner col-12 col-xl-10 mx-auto mb-4 mb-md-5"><img src="images/banner-win4u-top.jpg" class="img-fluid w-100"/></div>
+                                <div class="box-banner col-12 col-xl-10 mx-auto mb-4 mb-md-5"><img src="images/banner-win4u-top-2.jpg" class="img-fluid w-100"/></div>
                                 <div class="box-header col-md-7 col-lg-4">
                                     <div class="frame frame-title">
                                         <img src="images/bg-header-official-links.png" class="img-fluid w-100"/>

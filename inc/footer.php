@@ -6,9 +6,9 @@
                 <div class="d-flex flex-wrap">
                     <div class="col-5 p-0 m-auto text-center">
                         <p class="text-uppercase">Game License <?php echo $icon_bluetick;?></p>
-                        <img src="images/gaming_curacao_logo.png" class="col-10 col-md-5" alt="Gaming Curacao License">
+                        <img src="images/gaming_curacao_logo.png" class="col-7 col-md-5" alt="Gaming Curacao License">
                     </div>
-                    <div class="col-5 p-0 m-auto text-center">
+                    <div class="col-5 p-0 m-auto text-center gaming">
                         <p class="text-uppercase">Responsible Gaming</p>
                         <div class="d-flex justify-content-center align-items-center">
                             <span class="pe-3"><?php echo $icon_18;?></span>

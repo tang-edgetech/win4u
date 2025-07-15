@@ -213,19 +213,20 @@ h1, h2, h3, h4, h5, h6, p {
         width: 100%;
     }
     .box-header {
-        width: 75%;
+        width: 50%;
         margin: 0 auto;
     }
     .box-header h2 {
-        font-size: 28px;
-        line-height: 28px;
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 3px;
     }
     .box-body {
         margin-top: -50px;
     }
     .link-column.column-left p, .link-column.column-right p, .btn-download {
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 18px;
+        line-height: 18px;
     }
     .box-body-inner {
         padding: 80px 50px 0px;
@@ -268,7 +269,11 @@ h1, h2, h3, h4, h5, h6, p {
         transform: scaleY(1);
     }
     .frame.frame-body .mobile-frame{
-        max-height: 400px;
+        max-height: 570px;
+    }
+    .site-footer .gaming svg{
+        width: 40px;
+        height: 40px;
     }
 }
 @media (max-width: 378px) {
@@ -316,7 +321,7 @@ h1, h2, h3, h4, h5, h6, p {
         transform: scaleY(0.9);
     }
     .frame.frame-body .mobile-frame{
-        max-height: 580px;
+        max-height: 820px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait) {

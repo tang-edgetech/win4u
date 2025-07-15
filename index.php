@@ -16,7 +16,7 @@
                         <div class="col-12 col-md-9 col-lg-10 px-3 px-md-4">
                             <div class="box">
                                 <div class="box-banner col-12 col-xl-9 mx-auto mb-4 mb-md-3"><img src="images/top-banner-win4u.jpg" class="img-fluid w-100"/></div>
-                                <div class="box-header col-md-7 col-lg-4">
+                                <div class="box-header col-md-6 col-lg-4">
                                     <div class="frame frame-title">
                                         <img src="images/bg-header-official-links.png" class="img-fluid w-100"/>
                                     </div>
@@ -59,7 +59,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6 ps-lg-5">
-                                                <div class="banner mb-4 d-none d-lg-block">
+                                                <div class="banner mb-4 d-block">
                                                     <img src="images/mobile-app-banner.jpg" class="img-fluid w-100"/>
                                                 </div>
                                                 <div cass="btn-wrapper">

@@ -6,19 +6,19 @@ $icon_gamble_aware = '<?xml version="1.0" encoding="UTF-8"?> <svg id="Layer_2" d
 $official_links = [
     [
         "label" => "win4u11.com",
-        "url" => "https://win4u11.com",
+        "url" => "https://www.win4u11.com/m/home?affiliateCode=win4u0017",
     ],
     [
         "label" => "win4u22.com",
-        "url" => "https://win4u22.com",
+        "url" => "https://www.win4u22.com/m/home?affiliateCode=win4u0018",
     ],
     [
         "label" => "win4u33.com",
-        "url" => "https://win4u33.com",
+        "url" => "https://www.win4u33.com/m/home?affiliateCode=win4u0019",
     ],
     [
         "label" => "win4u44.com",
-        "url" => "https://win4u44.com",
+        "url" => "https://www.win4u44.com/m/home?affiliateCode=win4u0020",
     ],
 ];
 ?>

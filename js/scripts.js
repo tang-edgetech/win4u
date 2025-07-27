@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         downloadBtn.href = "https://images.6440949940.com/wsd-images-prod/win4umyrf6/merchant_resource/mobileconfig/win4umyrf6_2.4.3_20250623165010.mobileconfig";
         deviceIcon.src = "images/icon-ios.png";
     } else {
-        downloadBtn.href = "#";
+        downloadBtn.href = "https://images.6440949940.com/wsd-images-prod/win4umyrf6/merchant_resource/android/win4umyrf6_2.4.67_20250623165028.apk";
         deviceIcon.src = "images/icon-android.png";
     }
 });
